@@ -1,4 +1,8 @@
 #!/bin/bash
+# Title: FUXA-Deface
+# Author: Jesse Cutshall (@kiddcutty)
+# Description: Web defacement script for FUXA instance.
+
 
 echo " @@@@@@@@ @@@  @@@ @@@  @@@  @@@@@@       @@@@@@@  @@@@@@@@ @@@@@@@@  @@@@@@   @@@@@@@ @@@@@@@@";
 echo " @@!      @@!  @@@ @@!  !@@ @@!  @@@      @@!  @@@ @@!      @@!      @@!  @@@ !@@      @@!     ";
