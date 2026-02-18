@@ -1,6 +1,6 @@
 # FUXA-Deface  
 
-##Steps for attack
+## Steps for attack
 1. Start a local http server on attacker box.
 ```python3 -m http.server```
 2. Run shell script on attacker machine in another terminal window.
